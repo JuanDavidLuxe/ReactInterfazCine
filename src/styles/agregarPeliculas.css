@@ -1,0 +1,13 @@
+button[type=submit] {
+    margin: 2rem 0rem;
+}
+
+.button-agregar-pelicula {
+    button {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        margin-top: 1rem;
+        flex-direction: column;
+    }
+}

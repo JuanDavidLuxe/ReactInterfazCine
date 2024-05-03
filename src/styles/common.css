@@ -1,0 +1,56 @@
+
+.inputs-agregarPelicula {
+    form, form > label {
+        display: flex;
+        flex-direction: column;
+    }
+
+    label > input {
+        margin-top: 0.5rem;
+        height: 2rem;
+}
+
+    form > label {
+        margin-top: 2rem;
+    }
+}
+
+.span-titulo-reservacion {
+    display: flex;
+    margin-left: 1rem;
+}
+
+.botones-cliente-reservaciones {
+    display: flex;
+    justify-content: space-around;
+
+    button {
+        width: 40%;
+    }
+}
+
+.button-cancelar-reservacion {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    border-radius: 0.5rem;
+    background-color: rgb(179, 41, 41);
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.input-seleccionar-cliente {
+
+    label {
+        display: flex;
+        flex-direction: column;
+
+        select {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            height: 2rem;
+        }
+    }
+}

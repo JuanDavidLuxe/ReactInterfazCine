@@ -1,0 +1,24 @@
+.content-admin {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.button-agregar {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    button {
+        width: 25%;
+    }
+}
+
+.navigation-admin {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
